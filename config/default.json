@@ -1,0 +1,5 @@
+{
+    "mongoURI": "mongodb+srv://crazywonder:wonder@cluster0.tqt7ra4.mongodb.net/stripe?retryWrites=true&w=majority",
+    "jwtSecret": "stripe",
+    "githubToken": "<yoursecrectaccesstoken>"
+  }
