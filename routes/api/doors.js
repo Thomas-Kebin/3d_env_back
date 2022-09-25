@@ -12,7 +12,7 @@ router.get('/test', async (req, res) => {
 
 // @route   GET api/doors/contacts/:id
 router.get('/door_num/:id', async (req, res) => {
-  var door = [1,0,0,1,1,0]; //door number return value
+  var door = [1,0,0,1,1,1]; //door number return value
   res.json(door[req.params.id-1]);
 })
 
